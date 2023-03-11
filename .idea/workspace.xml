@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49e998a-9c32-40c6-aa65-30975ca93912" name="Changes" comment="gitignore" />
+    <list default="true" id="f49e998a-9c32-40c6-aa65-30975ca93912" name="Changes" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ReadyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ReadyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VariaveisSecretas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/VariaveisSecretas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +83,7 @@
       <module name="bot-discord.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +96,7 @@
       <module name="bot-discord.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678566145246</updated>
-      <workItem from="1678566146666" duration="6431000" />
+      <workItem from="1678566146666" duration="7307000" />
     </task>
     <task id="LOCAL-00001" summary="start bot project!">
       <created>1678566306497</created>
@@ -173,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678574864471</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gitignore">
+      <created>1678574996326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678574996326</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

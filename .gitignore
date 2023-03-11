@@ -43,5 +43,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-### classes ###
-src/main/java/org/example/VariaveisSecretas.java
+### package manager ###
+src/main/java/org/example/utils/**.class
+
