@@ -4,7 +4,6 @@ import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.events.GenericEvent;
 import net.dv8tion.jda.api.events.session.ReadyEvent;
 import net.dv8tion.jda.api.hooks.EventListener;
-import org.example.utils.VariaveisSecretas;
 
 
 public class ReadyListener implements EventListener {

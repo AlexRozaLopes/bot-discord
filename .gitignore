@@ -44,5 +44,6 @@ bin/
 .DS_Store
 
 ### package manager ###
-!**/src/main/java/org/example/utils/**
+src/main/java/org/example/utils/VariaveisSecretas.java
+
 
