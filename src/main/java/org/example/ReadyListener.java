@@ -13,7 +13,7 @@ public class ReadyListener implements EventListener {
     public static void main(String[] args)
             throws InterruptedException {
         // Note: It is important to register your ReadyListener before building
-        var jda = JDABuilder.createDefault(TOKEN)
+        var jda = JDABuilder.createDefault(VariaveisSecretas.TOKEN)
                 .addEventListeners(new ReadyListener())
                 .build();
 
