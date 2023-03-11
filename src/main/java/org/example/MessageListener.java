@@ -9,6 +9,7 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 
 public class MessageListener extends ListenerAdapter {
 
+
     public static void main(String[] args) {
         JDA jda = JDABuilder.createDefault(VariaveisSecretas.TOKEN)
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT) // enables explicit access to message.getContentDisplay()
