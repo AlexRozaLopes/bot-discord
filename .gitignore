@@ -44,5 +44,5 @@ bin/
 .DS_Store
 
 ### package manager ###
-!**/src/main/java/org/example/utils/**.class
+!**/src/main/java/org/example/utils/**
 
