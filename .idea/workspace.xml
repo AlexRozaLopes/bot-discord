@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49e998a-9c32-40c6-aa65-30975ca93912" name="Changes" comment="gitignore" />
+    <list default="true" id="f49e998a-9c32-40c6-aa65-30975ca93912" name="Changes" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/VariaveisSecretas.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +53,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MspSRLm1n8eFxuzhYiMk4SZUMj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,6 +78,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.utils" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.MessageListener">
     <configuration name="MessageListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MessageListener" />
@@ -138,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678566145246</updated>
-      <workItem from="1678566146666" duration="7621000" />
+      <workItem from="1678566146666" duration="7957000" />
     </task>
     <task id="LOCAL-00001" summary="start bot project!">
       <created>1678566306497</created>
@@ -196,7 +205,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678575997607</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gitignore">
+      <created>1678576220336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678576220336</updated>
+    </task>
+    <task id="LOCAL-00010" summary="gitignore">
+      <created>1678576305627</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678576305627</updated>
+    </task>
+    <task id="LOCAL-00011" summary="gitignore">
+      <created>1678576377003</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678576377003</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
