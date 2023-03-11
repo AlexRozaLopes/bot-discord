@@ -15,7 +15,7 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-!**/src/main/java/org/example/VariaveisSecretas.java
+
 
 
 ### Eclipse ###
@@ -42,3 +42,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### classes ###
+src/main/java/org/example/VariaveisSecretas.java
