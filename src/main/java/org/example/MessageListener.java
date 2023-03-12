@@ -13,6 +13,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.example.commands.HelloCommand;
+import org.example.commands.QuoteCommand;
 import org.example.model.Mensagem;
 import org.example.utils.VariaveisSecretas;
 
@@ -21,7 +22,7 @@ import java.io.UnsupportedEncodingException;
 
 public class MessageListener extends ListenerAdapter {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         JDA jda = JDABuilder.createDefault(VariaveisSecretas.TOKEN)
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT)
                 .enableIntents(GatewayIntent.GUILD_PRESENCES,GatewayIntent.GUILD_MESSAGES)// enables explicit access to message.getContentDisplay()
@@ -31,9 +32,12 @@ public class MessageListener extends ListenerAdapter {
         // This includes events such as the ReadyEvent
         jda.addEventListener(new MessageListener());
         jda.addEventListener(new HelloCommand());
+        jda.addEventListener(new QuoteCommand());
         jda.updateCommands().addCommands(
-                Commands.slash("ola", "Saudação do Bolseiro!")
+                Commands.slash("ola", "Saudação do Bolseiro!"),
+                Commands.slash("quote", "Citação aleatória do Bilbo Baggins")
         ).queue();
+
     }
 
     @Override
