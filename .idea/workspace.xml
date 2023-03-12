@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49e998a-9c32-40c6-aa65-30975ca93912" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Mensagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/src/main/java/com/example/srvmsgdetails/SrvMsgDetailsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/src/main/java/com/example/srvmsgdetails/controller/MensagemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/src/main/java/com/example/srvmsgdetails/model/Mensagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/src/main/java/com/example/srvmsgdetails/repository/MensagemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/src/main/java/com/example/srvmsgdetails/service/MensagemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../srv-msg-details/src/test/java/com/example/srvmsgdetails/SrvMsgDetailsApplicationTests.java" afterDir="false" />
+    <list default="true" id="f49e998a-9c32-40c6-aa65-30975ca93912" name="Changes" comment="criando chamadas a api">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/commands/HelloCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MessageListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +96,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import",
+    "spring.configuration.checksum": "e8013d93955c2d482605db0a7530895f",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -199,7 +181,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678566145246</updated>
-      <workItem from="1678566146666" duration="12436000" />
+      <workItem from="1678566146666" duration="15492000" />
+      <workItem from="1678587227830" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="start bot project!">
       <created>1678566306497</created>
@@ -313,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678576975914</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="criando chamadas a api">
+      <created>1678582014843</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678582014843</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +325,8 @@
     <MESSAGE value="criando as primeiras funcionalidades do bot!" />
     <MESSAGE value="token secreto" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="criando chamadas a api" />
+    <option name="LAST_COMMIT_MESSAGE" value="criando chamadas a api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

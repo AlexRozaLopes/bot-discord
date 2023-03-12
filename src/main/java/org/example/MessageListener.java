@@ -7,10 +7,12 @@ import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.channel.ChannelType;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
+import net.dv8tion.jda.api.interactions.commands.build.Commands;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.example.commands.HelloCommand;
 import org.example.model.Mensagem;
 import org.example.utils.VariaveisSecretas;
 
@@ -21,12 +23,17 @@ public class MessageListener extends ListenerAdapter {
 
     public static void main(String[] args) {
         JDA jda = JDABuilder.createDefault(VariaveisSecretas.TOKEN)
-                .enableIntents(GatewayIntent.MESSAGE_CONTENT) // enables explicit access to message.getContentDisplay()
+                .enableIntents(GatewayIntent.MESSAGE_CONTENT)
+                .enableIntents(GatewayIntent.GUILD_PRESENCES,GatewayIntent.GUILD_MESSAGES)// enables explicit access to message.getContentDisplay()
                 .build();
         //You can also add event listeners to the already built JDA instance
         // Note that some events may not be received if the listener is added after calling build()
         // This includes events such as the ReadyEvent
         jda.addEventListener(new MessageListener());
+        jda.addEventListener(new HelloCommand());
+        jda.updateCommands().addCommands(
+                Commands.slash("ola", "Saudação do Bolseiro!")
+        ).queue();
     }
 
     @Override
