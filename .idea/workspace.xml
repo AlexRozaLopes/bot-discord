@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49e998a-9c32-40c6-aa65-30975ca93912" name="Changes" comment="criando slash comando que busca frases do bilbo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/commands/QuitChannelCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/commands/RecordCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/commands/VoiceChannelCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MessageListener.java" afterDir="false" />
+    <list default="true" id="f49e998a-9c32-40c6-aa65-30975ca93912" name="Changes" comment="habilitando o poder do bilbo">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/commands/VoiceChannelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/commands/VoiceChannelCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +186,7 @@
       <workItem from="1678587227830" duration="5136000" />
       <workItem from="1678592683820" duration="3866000" />
       <workItem from="1678602624831" duration="3625000" />
-      <workItem from="1678627573069" duration="5852000" />
+      <workItem from="1678627573069" duration="6162000" />
     </task>
     <task id="LOCAL-00001" summary="start bot project!">
       <created>1678566306497</created>
@@ -325,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678596119341</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="habilitando o poder do bilbo">
+      <created>1678633463387</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678633463387</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +353,8 @@
     <MESSAGE value="criando chamadas a api" />
     <MESSAGE value="primeiro slash comand" />
     <MESSAGE value="criando slash comando que busca frases do bilbo" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando slash comando que busca frases do bilbo" />
+    <MESSAGE value="habilitando o poder do bilbo" />
+    <option name="LAST_COMMIT_MESSAGE" value="habilitando o poder do bilbo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
